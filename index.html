@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFG Labuan Bajo Marathon</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <button type="button" class="btn btn-danger btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+
+
+    <nav>
+        <nav class="navbar navbar-expand-lg bg-danger fixed-top bg-opacity-75">
+            <div class="container">
+                <img src="assets/images/logo.png" alt="Logo" width="165" class="d-inline-block align-text-top">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto py-1 gap-2">
+                        <li class="nav-item">
+                            <a class="nav-link text-light fw-bold" aria-current="page" href="#">RPC</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fw-bold" href="#">JADWAL ACARA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fw-bold" href="#">HADIAH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fw-bold" href="#">RUTE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fw-bold" href="#">ASURANSI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fw-bold" href="#">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="text-decoration: none;" href="#">
+                              <div class="dropdown">
+                                  <button 
+                                    class=" dropdown nav-link fw-bold"
+                                    type="button"
+                                    id="dropdownMenuButton"
+                                    data-mdb-toggle="dropdown"
+                                    aria-expanded="false"
+                                    
+                                  >
+                                    HASIL LOMBA
+                                  </button>
+                                  <ul class="dropdown-menu bg-danger opacity-75"
+                                  style="border-radius: 0 !important; border: none !important"
+                                  aria-labelledby="dropdownMenuButton">
+                                    <li><a class="fw-bold nav-link" href="#about">PODIUM</a></li>
+                                    <li><a class="fw-bold nav-link" href="#">KESELURUHAN</a></li>
+                                  </ul>
+                                </div></a>
+                              </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fw-bold" href="#navbar">GALERI</a>
+                        </li>
+                        <span class="btn-group  " role="group" aria-label="basic radio toggle button group">
+                            <input type="radio" class="btn-check" name="button-radio" id="button-radio10"
+                                autocomplete="off" checked="">
+                            <label class="btn py-2 btn-sm btn-outline-danger fw-bold rounded-start-5"
+                                for="button-radio10">ID</label>
+
+                            <input type="radio" class="btn-check" name="button-radio" id="button-radio30"
+                                autocomplete="off">
+                            <label class="btn py-2 btn-sm btn-outline-danger fw-bold rounded-end-5"
+                                for="button-radio30">EN</label>
+                        </span>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </nav>
+
+
+    <header style="margin-top: 55px;">
+        <img src="./assets/images/header.jpg" width="100%">
+    </header>
+
+    <section id="about" class="bg-secondary-subtle">
+        <div class="container py-5">
+            <H2 class="text-center py-4 fw-semibold pb-4">IFG LABUAN BAJO MARATHON</H2>
+            <div class="row">
+                <div class="col-lg-7">
+                    <p class="text-about">IFG LABUAN BAJO MARATHON 2022 merupakan lomba lari marathon paling menantang
+                        dan berskala besar yang pertama kali diselenggarakan di Labuan Bajo, Provinsi Nusa Tenggara
+                        Timur Indonesia dengan konsep sport tourism: wisata dan aktivitas olahraga.</p>
+                    <p class="text-about">IFG LABUAN BAJO MARATHON 2022 menawarkan lomba Marathon, Half Marathon, 10km,
+                        5km, EKIDEN, dan Kids Dash yang bisa diikuti kalangan profesional, pemula, hingga keluarga.
+                        Lomba ini akan menjadi lomba yang memiliki kontur menantang dan pemandangan alam berkelas dunia
+                        dengan lingkungan kepulauan Komodo sebagai latar belakang.</p>
+                </div>
+                <div class="col-lg-5">
+                    <img src="./assets/images/Net_07 (1).jpg" style="border-radius: 25px 0 15px 0;" width="100%" alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- podium start -->
+    <section id="podium" style="background-color: #F3F4F6;">
+        <div class="container py-5">
+            <h2 class="text-center pb-3">PODIUM</h2>
+            <ul class="nav nav-pills justify-content-between" id="pills-tab" role="tablist">
+                <li class="nav-item col-lg-2 col-12 my-1 flex-fill pe-lg-2 text-center">
+                    <a class="nav-link fw-bold custom-nav-link active py-2" id="pills-closed-elite-tab"
+                        data-bs-toggle="pill" href="#pills-closed-elite" role="tab" aria-controls="pills-closed-elite"
+                        aria-selected="true">CLOSED (Elite)</a>
+                </li>
+                <li class="nav-item col-lg-2 col-12 my-1 flex-fill px-lg-2 text-center">
+                    <a class="nav-link  fw-bold custom-nav-link " id="pills-closed-student-tab"
+                        data-bs-toggle="pill" href="#pills-closed-student" role="tab"
+                        aria-controls="pills-closed-student" aria-selected="false">CLOSED (Student)</a>
+                </li>
+                <li class="nav-item col-lg-2 col-12 my-1 flex-fill px-lg-2 text-center">
+                    <a class="nav-link  fw-bold custom-nav-link " id="pills-open-all-tab" data-bs-toggle="pill"
+                        href="#pills-open-all" role="tab" aria-controls="pills-open-all" aria-selected="false">OPEN
+                        (ALL)</a>
+                </li>
+                <li class="nav-item col-lg-2 col-12 my-1 flex-fill px-lg-2 text-center">
+                    <a class="nav-link  fw-bold custom-nav-link " id="pills-master-40-tab"
+                        data-bs-toggle="pill" href="#pills-master-40" role="tab" aria-controls="pills-master-40"
+                        aria-selected="false">MASTER 40+</a>
+                </li>
+                <li class="nav-item col-lg-2 col-12 my-1 flex-fill ps-lg-2 text-center">
+                    <a class="nav-link fw-bold custom-nav-link " id="pills-ekiden-tab" data-bs-toggle="pill"
+                        href="#pills-ekiden" role="tab" aria-controls="pills-ekiden" aria-selected="false">EKIDEN</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-closed-elite" role="tabpanel"
+                    aria-labelledby="pills-closed-elite-tab">
+                    <div class="row">
+                        <div class="col-md-6 my-4 ">
+                            <h5 class="text-left py-2 fw-bold">Marathon - Men</h5>
+                            <table class="table podium-table ">
+                                <thead>
+                                    <tr class="text-light">
+                                        <th class=" text-light">RANK</th>
+                                        <th class="text-light">NAMA</th>
+                                        <th class="text-light">BIB</th>
+                                        <th class="text-light">TIME</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center">I</td>
+                                        <td>DIFTA IBRULA GRATIA UNBANU</td>
+                                        <td>16</td>
+                                        <td>3:09:11</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">II</td>
+                                        <td>ELDAK KAFOLAMAU</td>
+                                        <td>14</td>
+                                        <td>3:21:50</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-6 my-4">
+                            <h5 class="text-left py-2 fw-bold">Marathon - Women</h5>
+                            <table class="table podium-table">
+                                <thead>
+                                    <tr>
+                                        <th class="text-light">RANK</th>
+                                        <th class="text-light">NAMA</th>
+                                        <th class="text-light">BIB</th>
+                                        <th class="text-light">TIME</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center">I</td>
+                                        <td>OLIVA SADI</td>
+                                        <td>15</td>
+                                        <td>4:15:29</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">II</td>
+                                        <td>MARIA SEPRYANTI PADJO</td>
+                                        <td>13</td>
+                                        <td>4:25:18</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-6 my-4">
+                            <h5 class="text-left py-2 fw-bold">Half Marathon - Men</h5>
+                            <table class="table podium-table">
+                                <thead>
+                                    <tr>
+                                        <th class="bg-danger text-light">RANK</th>
+                                        <th class="bg-danger text-light">NAMA</th>
+                                        <th class="bg-danger text-light">BIB</th>
+                                        <th class="bg-danger text-light">TIME</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center">I</td>
+                                        <td>OMRY D Y SINA</td>
+                                        <td>120</td>
+                                        <td>1:26:41</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-6 my-4">
+                            <h5 class="text-left py-2 fw-bold">Half Marathon - Women</h5>
+                            <table class="table podium-table">
+                                <thead>
+                                    <tr>
+                                        <th class="bg-danger text-light">RANK</th>
+                                        <th class="bg-danger text-light">NAMA</th>
+                                        <th class="bg-danger text-light">BIB</th>
+                                        <th class="bg-danger text-light">TIME</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center">I</td>
+                                        <td>AFRIANA PAIJOI</td>
+                                        <td>194</td>
+                                        <td>1:33:40</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-6 my-4">
+                            <h5 class="text-left py-2 fw-bold">10K - Men</h5>
+                            <table class="table podium-table">
+                                <thead>
+                                    <tr>
+                                        <th class="bg-danger text-light">RANK</th>
+                                        <th class="bg-danger text-light">NAMA</th>
+                                        <th class="bg-danger text-light">BIB</th>
+                                        <th class="bg-danger text-light">TIME</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center">I</td>
+                                        <td>MARSELINO VARELIAN FALO</td>
+                                        <td>601</td>
+                                        <td>0:34:47</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">II</td>
+                                        <td>ANGGA SABTA FOES</td>
+                                        <td>600</td>
+                                        <td>0:37:24</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-6 my-4">
+                            <h5 class="text-left py-2 fw-bold">10K - Women</h5>
+                            <table class="table podium-table">
+                                <thead>
+                                    <tr>
+                                        <th class="text-light">RANK</th>
+                                        <th class="text-light">NAMA</th>
+                                        <th class="text-light">BIB</th>
+                                        <th class=" text-light">TIME</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center">I</td>
+                                        <td>IRMA HANDAYANI</td>
+                                        <td>603</td>
+                                        <td>0:41:10</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-6 my-4">
+                            <h5 class="text-left py-2 fw-bold">5K - Men</h5>
+                            <table class="table podium-table">
+                                <thead>
+                                    <tr>
+                                        <th class="text-light">RANK</th>
+                                        <th class="text-light">NAMA</th>
+                                        <th class="text-light">BIB</th>
+                                        <th class="text-light">TIME</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center">I</td>
+                                        <td>SARDYANUS SANAM</td>
+                                        <td>1082</td>
+                                        <td>0:18:30</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">II</td>
+                                        <td>MARIANUS CHARLIANO DONI</td>
+                                        <td>1080</td>
+                                        <td>0:18:34</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-6 my-4">
+                            <h5 class="text-left py-2 fw-bold">5K - Women</h5>
+                            <table class="table podium-table">
+                                <thead>
+                                    <tr>
+                                        <th class="text-light">RANK</th>
+                                        <th class="text-light">NAMA</th>
+                                        <th class="text-light">BIB</th>
+                                        <th class="text-light">TIME</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center">I</td>
+                                        <td>YANCE EMILDA TASUAB</td>
+                                        <td>1083</td>
+                                        <td>0:21:42</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-closed-student" role="tabpanel"
+                    aria-labelledby="pills-closed-student-tab">
+                    <div class="row">
+                        <div class="col-md-6 my-4">
+                            <h5 class="text-left py-2 fw-bold">5K - Boys</h5>
+                            <table class="table podium-table">
+                                <thead>
+                                    <tr>
+                                        <th class="text-light">RANK</th>
+                                        <th class="text-light">NAMA</th>
+                                        <th class="text-light">BIB</th>
+                                        <th class="text-light">TIME</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>I</td>
+                                        <td>PAULINUS V A RATU</td>
+                                        <td>1243</td>
+                                        <td>0:21:44</td>
+                                    </tr>
+                                    <tr>
+                                        <td>II</td>
+                                        <td>BONAVENTURA KODIN</td>
+                                        <td>1301</td>
+                                        <td>0:22:02</td>
+                                    </tr>
+                                    <tr>
+                                        <td>III</td>
+                                        <td>DIEGO S. NESTA</td>
+                                        <td>1275</td>
+                                        <td>0:22:29</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-6 my-4">
+                            <h5 class="text-left py-2 fw-bold">5K - Girls</h5>
+                            <table class="table podium-table">
+                                <thead>
+                                    <tr>
+                                        <th class="text-light">RANK</th>
+                                        <th class="text-light">NAMA</th>
+                                        <th class="text-light">BIB</th>
+                                        <th class="text-light">TIME</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>I</td>
+                                        <td>FRANSISKA T. TOBONG</td>
+                                        <td>1277</td>
+                                        <td>0:29:34</td>
+                                    </tr>
+                                    <tr>
+                                        <td>II</td>
+                                        <td>FRANSISKA SARTIKA</td>
+                                        <td>1262 </td>
+                                        <td>0:29:47</td>
+                                    </tr>
+                                    <tr>
+                                        <td>III</td>
+                                        <td>MARIA APRILIANA MULIA</td>
+                                        <td>1308 </td>
+                                        <td>0:32:02</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-open-all" role="tabpanel" aria-labelledby="pills-open-all-tab">
+                    <div class="row">
+                        <div class="col-md-6 my-4">
+                            <h5 class="text-left py-2 fw-bold">Marathon - Men</h5>
+                            <table class="table podium-table">
+                                <thead>
+                                    <tr>
+                                        <th class="text-light">RANK</th>
+                                        <th class="text-light">NAMA</th>
+                                        <th class="text-light">BIB</th>
+                                        <th class="text-light">TIME</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>I</td>
+                                        <td>DIFTA IBRULA GRATIA UNBANU</td>
+                                        <td>16</td>
+                                        <td>3:09:11</td>
+                                    </tr>
+                                    <tr>
+                                        <td>II</td>
+                                        <td>ELDAK KAFOLAMAU</td>
+                                        <td>14</td>
+                                        <td>3:21:50</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-6 my-4">
+                            <h5 class="text-left py-2 fw-bold">Marathon - Women</h5>
+                            <table class="table podium-table">
+                                <thead>
+                                    <tr>
+                                        <th class="text-light">RANK</th>
+                                        <th class=" text-light">NAMA</th>
+                                        <th class="text-light">BIB</th>
+                                        <th class="text-light">TIME</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>I</td>
+                                        <td>OLIVA SADI</td>
+                                        <td>15</td>
+                                        <td>4:15:29</td>
+                                    </tr>
+                                    <tr>
+                                        <td>II</td>
+                                        <td>MARIA SEPRYANTI PADJO</td>
+                                        <td>13</td>
+                                        <td>4:25:18</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-master-40" role="tabpanel" aria-labelledby="pills-master-40-tab">
+                    <div class="row">
+                        <div class="col-md-6 my-4">
+                            <h5 class="text-left py-2 fw-bold">Marathon - Men</h5>
+                            <table class="table podium-table">
+                                <thead>
+                                    <tr>
+                                        <th class="text-light">RANK</th>
+                                        <th class="text-light">NAMA</th>
+                                        <th class="text-light">BIB</th>
+                                        <th class="text-light">TIME</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>I</td>
+                                        <td>DIFTA IBRULA GRATIA UNBANU</td>
+                                        <td>16</td>
+                                        <td>3:09:11</td>
+                                    </tr>
+                                    <tr>
+                                        <td>II</td>
+                                        <td>ELDAK KAFOLAMAU</td>
+                                        <td>14</td>
+                                        <td>3:21:50</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-6 my-4">
+                            <h5 class="text-left py-2 fw-bold">Marathon - Women</h5>
+                            <table class="table podium-table">
+                                <thead>
+                                    <tr>
+                                        <th class="text-light">RANK</th>
+                                        <th class="text-light">NAMA</th>
+                                        <th class="text-light">BIB</th>
+                                        <th class="text-light">TIME</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>I</td>
+                                        <td>OLIVA SADI</td>
+                                        <td>15</td>
+                                        <td>4:15:29</td>
+                                    </tr>
+                                    <tr>
+                                        <td>II</td>
+                                        <td>MARIA SEPRYANTI PADJO</td>
+                                        <td>13</td>
+                                        <td>4:25:18</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-ekiden" role="tabpanel" aria-labelledby="pills-ekiden-tab">
+                    <div class="row">
+                        <div class="col-md-12 mt-3">
+                            <h5 class="text-start py-3 fw-bold">Ekiden</h5>
+                            <table class="table podium-table " style="border: 1px solid black;">
+                                <thead style="border: 1px solid black;">
+                                    <tr class="text-center">
+                                        <th class="bg-danger text-light" style="border: 1px solid black;">RANK</th>
+                                        <th class="bg-danger text-light" style="border: 1px solid black;">NAMA</th>
+                                        <th class="bg-danger text-light" style="border: 1px solid black;">BIB</th>
+                                        <th class="bg-danger text-light" style="border: 1px solid black;">TIME</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="5" class="text-center align-middle"
+                                            style="border: 1px solid black;">I</td>
+                                        <td colspan="3" class="text-center bg-danger-subtle fs-5"
+                                            style="border: 1px solid black;">GROUP 37</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td class="text-start fs-5" style="border: 1px solid black;">FERI ARDIANSYAH
+                                        </td>
+                                        <td class="text-center fs-5" style="border: 1px solid black;">A1537</td>
+                                        <td class="text-center fs-5" style="border: 1px solid black;">0:19:39</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-start fs-5" style="border: 1px solid black;">RAINUL RABIZA</td>
+                                        <td class="text-center fs-5" style="border: 1px solid black;">B1537</td>
+                                        <td class="text-center fs-5" style="border: 1px solid black;">0:20:26</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-start fs-5" style="border: 1px solid black;">ABDUL MUHAIMI</td>
+                                        <td class="text-center fs-5 " style="border: 1px solid black;">C1537</td>
+                                        <td class="text-center fs-5" style="border: 1px solid black;">0:21:51</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-start fs-5" style="border: 1px solid black;">SULISTIAWATI</td>
+                                        <td class="text-center fs-5 " style="border: 1px solid black;">D1537</td>
+                                        <td class="text-center fs-5" style="border: 1px solid black;">0:30:02</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="5" class="text-center align-middle"
+                                            style="border: 1px solid black;">II</td>
+                                        <td colspan="3" class="text-center bg-danger-subtle fs-5"
+                                            style="border: 1px solid black;">GROUP 42</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td class="text-start fs-5" style="border: 1px solid black;">GUSTI AGUNG NUGRAHA
+                                        </td>
+                                        <td class="text-center fs-5" style="border: 1px solid black;">A1542</td>
+                                        <td class="text-center fs-5" style="border: 1px solid black;">0:26:04</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-start fs-5" style="border: 1px solid black;">RAHMAT HIDAYAT</td>
+                                        <td class="text-center fs-5" style="border: 1px solid black;">B1542</td>
+                                        <td class="text-center fs-5" style="border: 1px solid black;">0:27:35</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-start fs-5" style="border: 1px solid black;">MUHAMMAD HADI
+                                            SAPUTRA</td>
+                                        <td class="text-center fs-5 " style="border: 1px solid black;">C1542</td>
+                                        <td class="text-center fs-5" style="border: 1px solid black;">0:30:06</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-start fs-5" style="border: 1px solid black;">MEILY HARIAFI</td>
+                                        <td class="text-center fs-5 " style="border: 1px solid black;">D1542</td>
+                                        <td class="text-center fs-5" style="border: 1px solid black;">0:33:39</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="5" class="text-center align-middle"
+                                            style="border: 1px solid black;">III</td>
+                                        <td colspan="3" class="text-center bg-danger-subtle fs-5"
+                                            style="border: 1px solid black;">GROUP 36</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td class="text-start fs-5" style="border: 1px solid black;">EVA PRIATNA</td>
+                                        <td class="text-center fs-5" style="border: 1px solid black;">A1536</td>
+                                        <td class="text-center fs-5" style="border: 1px solid black;">0:27:03</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-start fs-5" style="border: 1px solid black;">AMRAN HALIM</td>
+                                        <td class="text-center fs-5" style="border: 1px solid black;">B1536</td>
+                                        <td class="text-center fs-5" style="border: 1px solid black;">0:28:01</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-start fs-5" style="border: 1px solid black;">SOFIYAN</td>
+                                        <td class="text-center fs-5 " style="border: 1px solid black;">C1536</td>
+                                        <td class="text-center fs-5" style="border: 1px solid black;">0:30:12</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-start fs-5" style="border: 1px solid black;">LAKSMI UTAMI NURUL
+                                        </td>
+                                        <td class="text-center fs-5 " style="border: 1px solid black;">D1536</td>
+                                        <td class="text-center fs-5" style="border: 1px solid black;">0:38:55</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <section style="padding-top: 4rem; padding-bottom: 4rem;">
+        <div class="container px-4 px-lg-0">
+            <h3 class="tittle pb-4 text-center fw-semibold">ATURAN PENGEMBALIAN DANA / PEMBATALAN / PENUKARAN / PELARI
+                JOKI</h3>
+            <p class="text-base">
+                Tidak ada pengembalian dana. Perubahan nama/kategori akan dikenakan biaya tambahan sebesar 30% dari
+                harga normal yang berlaku selambatnya tiga minggu sebelum tanggal pengambilan BIB (nomor dada) atau jika
+                kuota masih tersedia. Perubahan hanya berlaku satu kali. Anda harus mengenakan BIB. Peserta tidak
+                diperkenankan memberikan BIB nya pada orang lain. Jika didapati adanya peserta yang tidak terdaftar,
+                maka berlaku diskualifikasi. Pelari Joki tidak dibenarkan. Kami mengadakan acara ini untuk peserta yang
+                betul-betul berkeinginan mengikuti lomba. Pelari Joki akan diminta untuk meninggalkan area lomba.
+            </p>
+        </div>
+    </section>
+
+    <section class="background-red text-light" style="padding-top: 4rem; padding-bottom: 4rem;">
+        <div class="container px-4 px-lg-0">
+            <h3 class="tittle pb-4 text-center fw-semibold">PERHATIAN!</h3>
+            <p class="text-base">
+                PESERTA DISARANKAN MENUNJUKKAN SURAT KETERANGAN MEDIS/DOKTER YANG MENYATAKAN BAHWA ANDA DALAM KONDISI
+                FISIK YANG SIAP DAN MAMPU MENGIKUTI LOMBA. SERAHKAN SURAT KETERANGAN MEDIS/DOKTER BERSAMA SURAT
+                KONFIRMASI KEPESERTAAN ANDA PADA PETUGAS SAAT PENUKARAN BIB.
+            </p>
+            <p class="text-base">
+                Anda wajib membaca, memahami dan menyetujui surat pernyataan pembebasan dan pelepasan dari tuntutan
+                (Waiver) kami jika Anda tidak melengkapi surat keterangan Medis/Dokter.
+            </p>
+        </div>
+    </section>
+
+    <section style="padding-top: 4rem; padding-bottom: 4rem;">
+        <div class="container text-center px-4 px-lg-0">
+            <h3 class="pb-4 fw-semibold">RACE PACK COLLECTION</h3>
+            <div class="text-start mb-3 ">
+                <p style="font-size: 16px;" class="ps-1 m-0">
+                    Race Pack Collection akan diadakan pada:
+                </p>
+                <ul class="mb-4 ps-4">
+                    <li style="font-size: 16px;">Tanggal: 27 - 28 Oktober 2022</li>
+                    <li style="font-size: 16px;">Pukul: 09:00 - 21:00 WITA</li>
+                    <li style="font-size: 16px;">Lokasi: Ruangan Check In Penumpang Kapal 2 Pelni, Waterfront City
+                        Labuan Bajo</li>
+                </ul>
+                <p style="font-size: 16px;" class="ps-1 m-0">
+                    Pada saat pengambilan race pack, peserta harus membawa:
+                </p>
+                <ol class="ps-4">
+                    <li style="font-size: 16px;">Surat konfirmasi kepesertaan (digital/cetak),</li>
+                    <li style="font-size: 16px;">Kartu identitas yang digunakan saat pendaftaran (KTP, SIM, Paspor),
+                    </li>
+                    <li style="font-size: 16px;">Surat kuasa jika pengambilan diwakilkan. Unduh surat kuasa
+                        <a style="font-size: 16px; text-decoration: none;" href="#">
+                            di sini</a>.
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- JADWAL ACARA -->
+    <section class="tittlee" id="jadwal">
+        <div class="container py-5 text-center">
+            <h4 class="text-light fw-semibold pt-4" style="font-size: 19px ;">JADWAL ACARA</h4>
+            <h1 class="text-light fw-bold py-4 fs-1">SABTU, 29 OKTOBER 2022</h1>
+            <h1 class="text-warning fw-bold fs-3">0
+                HARI
+                0
+                JAM
+                0
+                MENIT
+                0
+                DETIK</h1>
+
+            <div class="row py-5">
+                <div class="col-6 col-lg pt-2">
+                    <h4 class="text-light fw-semibold" style="font-size: 14px;">MARATHON</h4>
+                    <h4 class="text-warning fw-light fs-6 py-3">
+                        START 04.45 WITA <br>
+                        (Cut-off-time 7 Jam)</h1>
+                </div>
+                <div class="col-6 col-lg pt-2">
+                    <h4 class="text-light fw-semibold" style="font-size: 14px;">HALF MARATHON</h4>
+                    <h4 class="text-warning fw-light fs-6 py-3">
+                        START 04.45 WITA <br>
+                        (Cut-off-time 3.5 Jam)</h1>
+                </div>
+                <div class="col-6 col-lg pt-2">
+                    <h4 class="text-light fw-semibold" style="font-size: 14px;">10K</h4>
+                    <h4 class="text-warning fw-light fs-6 py-3">
+                        START 05.30 WITA <br>
+                        (Cut-off-time 2 Jam)</h1>
+                </div>
+                <div class="col-6 col-lg pt-2">
+                    <h4 class="text-light fw-semibold" style="font-size: 14px;">5K</h4>
+                    <h4 class="text-warning fw-light fs-6 py-3">
+                        START 06.00 WITA <br>
+                        (Cut-off-time 1 Jam)</h1>
+                </div>
+                <div class="col-6 col-lg pt-2">
+                    <h4 class="text-light fw-semibold" style="font-size: 14px;">EKIDEN (ESTAFET 20K)</h4>
+                    <h4 class="text-warning fw-light fs-6 py-3">
+                        START 06.00 WITA <br>
+                        (Cut-off-time 3.5 Jam)</h1>
+                </div>
+                <div class="col-6 col-lg pt-2">
+                    <h4 class="text-light fw-semibold" style="font-size: 14px;">KIDS DASH 100M</h4>
+                    <h4 class="text-warning fw-light fs-6 py-3">
+                        START 07.00 WITA</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- HADIAH -->
+     <section>
+        <div class="container py-5">
+            <h1 class="text-center fw-semibold pt-4">HADIAH</h1>
+            <p class="text-base pt-5">
+                Hadiah akan diberikan kepada juara 1 hingga 3 laki-laki dan perempuan di semua kategori jarak lomba. Pajak hadiah ditanggung oleh masing-masing pemenang. Rincian hadiah dapat dilihat
+                <a style="font-size: 16px; text-decoration: none;" href="#"> 
+                    di sini</a>.</li>
+              </p>
+        </div>
+    </section>
+    <section class="pt-3 bg-secondary-subtle" id="snk">
+        <div class="container text-center mb-5 pb-5">
+            <p class="rules py-4">
+                Anda wajib membaca dan memahami Aturan Diskualifikasi Lomba, Aturan Podium, Syarat dan Ketentuan Hadiah Podium dan Aturan Sengketa Hasil Lomba yang berlaku untuk lomba ini.
+            </p>
+            <div class="row justify-content-between">
+                <div class="col-lg-3  col-md-6 col-sm-12 mb-2">
+                    <a href="https://www.google.com" target="_blank" class="btn btn-red w-100">
+                        ATURAN DISKUALIFIKASI LOMBA
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12 mb-2">
+                    <a href="https://www.google.com" target="_blank" class="btn btn-red btn-narrow w-100">
+                        ATURAN LOMBA
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+                    <a href="https://www.google.com" target="_blank" class="btn btn-red w-100">
+                        SYARAT & KETENTUAN HADIAH PODIUM
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+                    <a href="https://www.google.com" target="_blank" class="btn btn-red w-100">
+                        ATURAN SENGKETA HASIL LOMBA
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- JALUR LOMBA & PETA -->
+     <section class="bg-body-tertiary">
+        <div class="container py-5 px-4 px-lg-0">
+            <h1 class="text-center fw-semibold pt-4">JALUR LOMBA & PETA</h1>
+
+            <div class="pt-5">
+                <ul class="nav justify-content-center gap-3" id="pills-tab" role="tablist">
+                    <li class="col-12 col-lg-auto">
+                        <a class="btn w-100 text-light fw-semibold show active p-3" style="background-color: #025A80; border: none !important; border-radius: 0 !important;" id="pills-marathon-tab" data-toggle="pill" href="#pills-marathon" role="tab" aria-controls="pills-marathon" aria-selected="true">MARATHON</a>
+                    </li>
+                    <li class="col-auto">
+                        <a class="btn text-light fw-semibold p-3" style="background-color: #025A80; border: none !important; border-radius: 0 !important;" id="pills-half-marathon-tab" data-toggle="pill" href="#pills-half-marathon" role="tab" aria-controls="pills-half-marathon" aria-selected="false">HALF MARATHON</a>
+                    </li>
+                    <li class="col-auto">
+                        <a class="btn text-light fw-semibold p-3" style="background-color: #025A80; border: none !important; border-radius: 0 !important;" id="pills-10k-tab" data-toggle="pill" href="#pills-10k" role="tab" aria-controls="pills-10k" aria-selected="false">10K</a>
+                    </li>
+                    <li class="col-auto">
+                        <a class="btn text-light fw-semibold p-3" style="background-color: #025A80; border: none !important; border-radius: 0 !important;" id="pills-5k-tab" data-toggle="pill" href="#pills-5k" role="tab" aria-controls="pills-5k" aria-selected="false">5K</a>
+                    </li>
+                    <li class="col-auto">
+                        <a class="btn text-light fw-semibold p-3" style="background-color: #025A80; border: none !important; border-radius: 0 !important;" id="pills-ekidens-tab" data-toggle="pill" href="#pills-ekidens" role="tab" aria-controls="pills-ekidens" aria-selected="false">EKIDEN</a>
+                    </li>
+                </ul>
+            </div>
+
+            <p class="text-base pt-4" style="font-size: 1.16rem;">
+                Jalur lomba berada di lajur jalan umum di area Labuan Bajo, NTT. Meskipun ada beberapa naungan pohon sepanjang jalur lomba, cuaca, kelembaban tinggi, kondisi jalan dan topografi yang menantang bisa mengancam. Maka patuhi instruksi dan gunakan Titik Hidrasi yang telah kami siapkan dengan sebaik-baiknya.
+            </p>
+            <p class="text-base" style="font-size: 1.16rem; font-style: italic;">
+                *atas pertimbangan keamanan dan kenyamanan, jalur lomba dapat berubah sewaktu-waktu.
+            </p>
+
+
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane show active" id="pills-marathon" role="tabpanel" aria-labelledby="pills-marathon">
+                  <img src="./assets/images/jalur1.jpg" alt="" width="100%">
+                </div>
+                <div class="tab-pane" id="pills-half-marathon" role="tabpanel" aria-labelledby="pills-half-marathon">
+                    <img src="./assets/images/jalur2.jpg" alt="" width="100%">
+                </div>
+                <div class="tab-pane" id="pills-10k" role="tabpanel" aria-labelledby="pills-10k">
+                    <img src="./assets/images/jalur3.jpg" alt="" width="100%">
+                </div>
+                <div class="tab-pane" id="pills-5k" role="tabpanel" aria-labelledby="pills-5k">
+                    <img src="./assets/images/jalur4.jpg" alt="" width="100%">
+                </div>
+                <div class="tab-pane" id="pills-ekidens" role="tabpanel" aria-labelledby="pills-ekidens">
+                    <img src="./assets/images/jalur5.jpg" alt="" width="100%">
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="info-box d-flex">
+                            <div class="info-icon">
+                                <i class="fas fa-tint fa-size"></i>
+                            </div>
+                            <div class="info-content">
+                                <h5 class="fw-semibold">TITIK HIDRASI</h5>
+                                <p class="text-base pt-3">Kami menyediakan area hidrasi sepanjang jalur lomba dan di area pelepasan garis finish.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-box d-flex">
+                            <div class="info-icon">
+                                <i class="fas fa-cloud fa-size"></i>
+                            </div>
+                            <div class="info-content">
+                                <h5 class="fw-semibold">CUACA</h5>
+                                <p class="text-base pt-3">Cuaca di Labuan Bajo bercirikan iklim tropis-kering dengan kelembaban dan suhu darat yang cukup tinggi, bersiaplah untuk segala kemungkinan. Selalu siapkan pakaian ganti. Lomba akan tetap dilaksanakan saat hujan, namun akan kami hentikan jika terjadi petir dan cuaca buruk lainnya.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./scripts/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+
+</html>
